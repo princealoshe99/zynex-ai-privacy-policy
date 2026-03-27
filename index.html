@@ -1,0 +1,1029 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Zynex AI Privacy Policy</title>
+  <style>
+    :root {
+      --bg: #f4f7fb;
+      --card: rgba(255, 255, 255, 0.9);
+      --text: #142033;
+      --muted: #5f6b7a;
+      --line: #dbe3ee;
+      --primary: #6c5ce7;
+      --secondary: #00b894;
+      --shadow: 0 18px 40px rgba(20, 32, 51, 0.08);
+    }
+
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      margin: 0;
+      font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+      color: var(--text);
+      background:
+        radial-gradient(circle at top left, rgba(108, 92, 231, 0.14), transparent 28%),
+        radial-gradient(circle at top right, rgba(0, 184, 148, 0.12), transparent 24%),
+        linear-gradient(180deg, #f8fbff 0%, var(--bg) 100%);
+      line-height: 1.65;
+    }
+
+    .wrap {
+      max-width: 980px;
+      margin: 0 auto;
+      padding: 24px 18px 48px;
+    }
+
+    .hero {
+      background: linear-gradient(135deg, rgba(108, 92, 231, 0.96), rgba(0, 184, 148, 0.92));
+      color: #fff;
+      border-radius: 28px;
+      padding: 28px;
+      box-shadow: var(--shadow);
+    }
+
+    .hero-top {
+      display: flex;
+      gap: 14px;
+      align-items: center;
+      justify-content: space-between;
+      flex-wrap: wrap;
+    }
+
+    .brand {
+      display: flex;
+      align-items: center;
+      gap: 14px;
+    }
+
+    .logo {
+      width: 56px;
+      height: 56px;
+      border-radius: 18px;
+      display: grid;
+      place-items: center;
+      background: rgba(255, 255, 255, 0.16);
+      backdrop-filter: blur(10px);
+      font-size: 28px;
+    }
+
+    .hero h1 {
+      margin: 0;
+      font-size: 30px;
+      line-height: 1.15;
+    }
+
+    .hero p {
+      margin: 8px 0 0;
+      color: rgba(255, 255, 255, 0.88);
+      max-width: 720px;
+    }
+
+    .controls {
+      margin-top: 20px;
+      display: flex;
+      gap: 12px;
+      flex-wrap: wrap;
+      align-items: center;
+      justify-content: space-between;
+    }
+
+    .lang-box,
+    .notice {
+      background: rgba(255, 255, 255, 0.14);
+      border: 1px solid rgba(255, 255, 255, 0.16);
+      border-radius: 16px;
+      padding: 12px 14px;
+      backdrop-filter: blur(12px);
+    }
+
+    .lang-box label {
+      display: block;
+      font-size: 12px;
+      font-weight: 700;
+      letter-spacing: 0.04em;
+      margin-bottom: 6px;
+      color: rgba(255, 255, 255, 0.84);
+    }
+
+    select {
+      width: 240px;
+      max-width: 100%;
+      border: 0;
+      outline: none;
+      border-radius: 12px;
+      padding: 10px 12px;
+      font-size: 14px;
+      color: var(--text);
+    }
+
+    .notice {
+      color: rgba(255, 255, 255, 0.92);
+      font-size: 13px;
+      max-width: 420px;
+    }
+
+    .content {
+      margin-top: 18px;
+      background: var(--card);
+      border: 1px solid rgba(219, 227, 238, 0.85);
+      border-radius: 24px;
+      box-shadow: var(--shadow);
+      overflow: hidden;
+    }
+
+    .content-inner {
+      padding: 26px;
+    }
+
+    .meta {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 10px;
+      margin-bottom: 22px;
+    }
+
+    .pill {
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      padding: 9px 12px;
+      border-radius: 999px;
+      background: rgba(108, 92, 231, 0.08);
+      color: var(--primary);
+      font-size: 13px;
+      font-weight: 700;
+    }
+
+    section {
+      padding: 18px 0;
+      border-top: 1px solid var(--line);
+    }
+
+    section:first-of-type {
+      border-top: 0;
+      padding-top: 0;
+    }
+
+    h2 {
+      margin: 0 0 10px;
+      font-size: 20px;
+      line-height: 1.25;
+    }
+
+    p,
+    li {
+      color: var(--muted);
+      font-size: 15px;
+    }
+
+    ul {
+      padding-inline-start: 18px;
+      margin: 10px 0 0;
+    }
+
+    .footer {
+      margin-top: 18px;
+      font-size: 13px;
+      color: var(--muted);
+      text-align: center;
+    }
+
+    .contact {
+      font-weight: 700;
+      color: var(--primary);
+    }
+
+    @media (max-width: 720px) {
+      .hero,
+      .content-inner {
+        padding: 20px;
+      }
+
+      .hero h1 {
+        font-size: 25px;
+      }
+
+      select {
+        width: 100%;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="wrap">
+    <div class="hero">
+      <div class="hero-top">
+        <div class="brand">
+          <div class="logo">AI</div>
+          <div>
+            <h1 id="page-title">Zynex AI Privacy Policy</h1>
+            <p id="page-subtitle"></p>
+          </div>
+        </div>
+      </div>
+
+      <div class="controls">
+        <div class="lang-box">
+          <label for="langSelect" id="language-label">Language</label>
+          <select id="langSelect"></select>
+        </div>
+        <div class="notice" id="notice-text"></div>
+      </div>
+    </div>
+
+    <div class="content">
+      <div class="content-inner">
+        <div class="meta">
+          <div class="pill" id="meta-updated"></div>
+          <div class="pill" id="meta-app"></div>
+        </div>
+
+        <section>
+          <h2 id="intro-title"></h2>
+          <p id="intro-body"></p>
+        </section>
+
+        <section>
+          <h2 id="collect-title"></h2>
+          <ul id="collect-list"></ul>
+        </section>
+
+        <section>
+          <h2 id="use-title"></h2>
+          <ul id="use-list"></ul>
+        </section>
+
+        <section>
+          <h2 id="share-title"></h2>
+          <p id="share-body"></p>
+          <ul id="share-list"></ul>
+        </section>
+
+        <section>
+          <h2 id="storage-title"></h2>
+          <p id="storage-body"></p>
+        </section>
+
+        <section>
+          <h2 id="rights-title"></h2>
+          <p id="rights-body"></p>
+        </section>
+
+        <section>
+          <h2 id="children-title"></h2>
+          <p id="children-body"></p>
+        </section>
+
+        <section>
+          <h2 id="changes-title"></h2>
+          <p id="changes-body"></p>
+        </section>
+
+        <section>
+          <h2 id="contact-title"></h2>
+          <p id="contact-body"></p>
+        </section>
+      </div>
+    </div>
+
+    <div class="footer" id="footer-text"></div>
+  </div>
+
+  <script>
+    const translations = {
+      en: {
+        label: 'English',
+        dir: 'ltr',
+        title: 'Zynex AI Privacy Policy',
+        subtitle: 'This policy explains what data Zynex AI may process, how it is used, and what controls users have.',
+        notice: 'Official privacy policy page for the Zynex AI application.',
+        updated: 'Last updated: March 27, 2026',
+        app: 'App: Zynex AI',
+        introTitle: '1. Overview',
+        introBody: 'Zynex AI is an AI assistant app that offers chat features, saved messages, notes, image tools, export tools, subscriptions, cloud sync, and sign-in with Google or guest mode. We collect only the information needed to provide these features and improve reliability.',
+        collectTitle: '2. Information We Collect',
+        collectList: [
+          'Account information such as your Google profile name, email address, and account identifier when you sign in with Google.',
+          'Anonymous authentication data when you use the app in guest mode.',
+          'User content you create inside the app, such as conversations, saved messages, notes, prompts, and settings.',
+          'Images and files that you intentionally select for image conversion, PDF export, or sharing features.',
+          'Purchase and subscription status information processed through RevenueCat and the app stores.',
+          'Advertising-related technical information provided by Google AdMob, such as ad requests and device-level advertising signals.',
+          'Basic device and app usage data needed for app functionality, security, storage, and troubleshooting.'
+        ],
+        useTitle: '3. How We Use Information',
+        useList: [
+          'To provide AI chat responses and app features you request.',
+          'To sync your conversations, saved messages, and settings across devices when you use a real account.',
+          'To save your local preferences such as language, theme, notes, and tool history on your device.',
+          'To process subscriptions, restore purchases, and manage premium access.',
+          'To show ads to free users and improve app monetization performance.',
+          'To protect the app, reduce abuse, and keep the service stable.'
+        ],
+        shareTitle: '4. Third-Party Services and Data Sharing',
+        shareBody: 'Zynex AI uses trusted third-party services to operate core app features. Your data may be processed by these providers only as needed to deliver their part of the service:',
+        shareList: [
+          'Google Firebase for authentication and cloud database features.',
+          'Google Sign-In for account login.',
+          'Google Generative AI / Gemini API for AI responses.',
+          'Google AdMob for ads shown in the app.',
+          'RevenueCat and the relevant app store for subscription and purchase management.',
+          'Share and export services when you explicitly choose to export or share content.'
+        ],
+        storageTitle: '5. Storage and Security',
+        storageBody: 'Some information is stored locally on your device using app storage. If you sign in with a real account, conversations, saved messages, and profile settings may also be stored in Firebase Firestore for cloud sync. We take reasonable steps to protect data, but no system can guarantee absolute security.',
+        rightsTitle: '6. Your Rights and Account Deletion',
+        rightsBody: 'You can sign out at any time. You can also delete your account from inside the app. When you delete your account, the app attempts to remove your synced account data from Firebase and delete the authentication account. Local data stored on your device is also cleared. You may also clear app data locally without deleting the cloud account.',
+        childrenTitle: '7. Children',
+        childrenBody: 'Zynex AI is not intended for children under the age required by local law to use such services without parental consent. If you believe a child provided personal data improperly, contact us so we can review and remove it where appropriate.',
+        changesTitle: '8. Policy Changes',
+        changesBody: 'We may update this Privacy Policy from time to time. If we make material changes, we will update the effective date on this page.',
+        contactTitle: '9. Contact',
+        contactBody: 'If you have privacy questions or account deletion requests, contact: alibaradee.mail4@gmail.com',
+        footer: 'Prepared for Zynex AI app publishing and Google Play compliance.'
+      },
+      ar: {
+        label: 'العربية',
+        dir: 'rtl',
+        title: 'سياسة الخصوصية لتطبيق Zynex AI',
+        subtitle: 'توضح هذه السياسة ما هي البيانات التي قد يعالجها تطبيق Zynex AI وكيفية استخدامها وما هي صلاحيات المستخدم تجاهها.',
+        notice: 'هذه هي صفحة سياسة الخصوصية الرسمية لتطبيق Zynex AI.',
+        updated: 'آخر تحديث: 27 مارس 2026',
+        app: 'التطبيق: Zynex AI',
+        introTitle: '1. نظرة عامة',
+        introBody: 'Zynex AI هو تطبيق مساعد ذكي يقدم المحادثات، الرسائل المحفوظة، الملاحظات، أدوات الصور، التصدير، الاشتراكات، المزامنة السحابية، وتسجيل الدخول عبر Google أو وضع الضيف. نحن نجمع فقط المعلومات اللازمة لتقديم هذه الميزات وتحسين موثوقية التطبيق.',
+        collectTitle: '2. المعلومات التي نجمعها',
+        collectList: [
+          'معلومات الحساب مثل الاسم والبريد الإلكتروني ومعرّف الحساب عند تسجيل الدخول بواسطة Google.',
+          'بيانات تسجيل الدخول المجهول عندما تستخدم التطبيق كضيف.',
+          'المحتوى الذي تنشئه داخل التطبيق مثل المحادثات، الرسائل المحفوظة، الملاحظات، الطلبات، والإعدادات.',
+          'الصور والملفات التي تختارها بنفسك لاستخدام ميزات تحويل الصور أو إنشاء PDF أو المشاركة.',
+          'معلومات الاشتراك وحالة الشراء التي تتم معالجتها عبر RevenueCat ومتاجر التطبيقات.',
+          'معلومات تقنية متعلقة بالإعلانات يقدمها Google AdMob مثل طلبات الإعلانات وبعض إشارات الجهاز الإعلانية.',
+          'بيانات أساسية عن الجهاز واستخدام التطبيق اللازمة للتشغيل والأمان والتخزين ومعالجة الأعطال.'
+        ],
+        useTitle: '3. كيفية استخدام المعلومات',
+        useList: [
+          'لتقديم ردود الذكاء الاصطناعي والميزات التي تطلبها داخل التطبيق.',
+          'لمزامنة المحادثات والرسائل المحفوظة والإعدادات بين أجهزتك عند استخدام حساب حقيقي.',
+          'لحفظ تفضيلاتك محلياً مثل اللغة والثيم والملاحظات وسجل بعض الأدوات على جهازك.',
+          'لمعالجة الاشتراكات واستعادة المشتريات وإدارة الوصول إلى الميزات المدفوعة.',
+          'لعرض الإعلانات للمستخدمين في الخطة المجانية وتحسين أداء تحقيق الدخل.',
+          'لحماية التطبيق وتقليل سوء الاستخدام والحفاظ على استقرار الخدمة.'
+        ],
+        shareTitle: '4. الخدمات الخارجية ومشاركة البيانات',
+        shareBody: 'يستخدم Zynex AI خدمات خارجية موثوقة لتشغيل الوظائف الأساسية. قد تتم معالجة بياناتك بواسطة هذه الجهات فقط بالقدر اللازم لتقديم الجزء الخاص بها من الخدمة:',
+        shareList: [
+          'Google Firebase للمصادقة وقاعدة البيانات السحابية.',
+          'Google Sign-In لتسجيل الدخول.',
+          'Google Generative AI / Gemini API للحصول على الردود الذكية.',
+          'Google AdMob للإعلانات داخل التطبيق.',
+          'RevenueCat ومتجر التطبيقات لإدارة الاشتراكات والمشتريات.',
+          'خدمات المشاركة والتصدير عند اختيارك أنت تصدير المحتوى أو مشاركته.'
+        ],
+        storageTitle: '5. التخزين والأمان',
+        storageBody: 'يتم حفظ بعض المعلومات محلياً على جهازك باستخدام التخزين المحلي للتطبيق. وإذا سجلت الدخول بحساب حقيقي فقد يتم أيضاً تخزين المحادثات والرسائل المحفوظة وإعدادات الملف الشخصي في Firebase Firestore لأغراض المزامنة السحابية. نحن نتخذ خطوات معقولة لحماية البيانات، لكن لا يوجد نظام يضمن الأمان المطلق.',
+        rightsTitle: '6. حقوقك وحذف الحساب',
+        rightsBody: 'يمكنك تسجيل الخروج في أي وقت. كما يمكنك حذف حسابك من داخل التطبيق. عند حذف الحساب يحاول التطبيق إزالة بياناتك السحابية المتزامنة من Firebase وحذف حساب المصادقة نفسه، كما يتم مسح البيانات المحلية المخزنة على جهازك. ويمكنك أيضاً حذف البيانات المحلية فقط دون حذف الحساب السحابي.',
+        childrenTitle: '7. الأطفال',
+        childrenBody: 'تطبيق Zynex AI غير مخصص للأطفال دون السن الذي تسمح به القوانين المحلية لاستخدام هذه الخدمات بدون موافقة ولي الأمر. إذا كنت تعتقد أن طفلاً قدّم بيانات شخصية بشكل غير مناسب، يرجى التواصل معنا لمراجعة الأمر وحذف البيانات عند الاقتضاء.',
+        changesTitle: '8. تغييرات السياسة',
+        changesBody: 'قد نقوم بتحديث سياسة الخصوصية من وقت لآخر. وإذا كانت هناك تغييرات جوهرية فسنقوم بتحديث تاريخ السريان في هذه الصفحة.',
+        contactTitle: '9. التواصل',
+        contactBody: 'إذا كانت لديك أسئلة متعلقة بالخصوصية أو طلبات حذف الحساب، تواصل عبر: alibaradee.mail4@gmail.com',
+        footer: 'تم إعداد هذه الصفحة لامتثال تطبيق Zynex AI لمتطلبات Google Play.'
+      },
+      fr: {
+        label: 'Français',
+        dir: 'ltr',
+        title: 'Politique de confidentialité de Zynex AI',
+        subtitle: 'Cette politique explique quelles données Zynex AI peut traiter, comment elles sont utilisées et quels contrôles sont disponibles pour les utilisateurs.',
+        notice: 'Page officielle de politique de confidentialité de l’application Zynex AI.',
+        updated: 'Dernière mise à jour : 27 mars 2026',
+        app: 'Application : Zynex AI',
+        introTitle: '1. Vue d’ensemble',
+        introBody: 'Zynex AI est une application d’assistant IA qui propose des conversations, des messages enregistrés, des notes, des outils d’image, l’exportation, des abonnements, la synchronisation cloud et la connexion avec Google ou en mode invité. Nous collectons uniquement les informations nécessaires pour fournir ces fonctions et améliorer la fiabilité du service.',
+        collectTitle: '2. Informations collectées',
+        collectList: [
+          'Les informations de compte comme votre nom de profil Google, votre adresse e-mail et votre identifiant de compte lorsque vous vous connectez avec Google.',
+          'Les données d’authentification anonyme lorsque vous utilisez l’application en mode invité.',
+          'Le contenu que vous créez dans l’application, comme les conversations, messages enregistrés, notes, invites et paramètres.',
+          'Les images et fichiers que vous sélectionnez volontairement pour la conversion d’image, l’export PDF ou le partage.',
+          'Les informations d’abonnement et d’achat traitées via RevenueCat et les boutiques applicatives.',
+          'Les informations techniques liées à la publicité fournies par Google AdMob, comme les requêtes publicitaires et certains signaux publicitaires de l’appareil.',
+          'Des données de base sur l’appareil et l’usage de l’application nécessaires au fonctionnement, à la sécurité, au stockage et au dépannage.'
+        ],
+        useTitle: '3. Utilisation des informations',
+        useList: [
+          'Fournir les réponses IA et les fonctionnalités demandées.',
+          'Synchroniser vos conversations, messages enregistrés et paramètres entre vos appareils lorsque vous utilisez un compte réel.',
+          'Enregistrer localement vos préférences comme la langue, le thème, les notes et l’historique de certains outils.',
+          'Gérer les abonnements, restaurer les achats et contrôler l’accès premium.',
+          'Afficher des publicités aux utilisateurs gratuits et améliorer les performances de monétisation.',
+          'Protéger l’application, limiter les abus et maintenir la stabilité du service.'
+        ],
+        shareTitle: '4. Services tiers et partage des données',
+        shareBody: 'Zynex AI utilise des services tiers de confiance pour faire fonctionner les fonctionnalités essentielles. Vos données peuvent être traitées par ces prestataires uniquement lorsque cela est nécessaire :',
+        shareList: [
+          'Google Firebase pour l’authentification et la base de données cloud.',
+          'Google Sign-In pour la connexion.',
+          'Google Generative AI / Gemini API pour les réponses IA.',
+          'Google AdMob pour les publicités dans l’application.',
+          'RevenueCat et la boutique applicative concernée pour les abonnements et achats.',
+          'Les services de partage et d’exportation lorsque vous choisissez d’exporter ou de partager du contenu.'
+        ],
+        storageTitle: '5. Stockage et sécurité',
+        storageBody: 'Certaines informations sont stockées localement sur votre appareil. Si vous vous connectez avec un compte réel, vos conversations, messages enregistrés et paramètres de profil peuvent aussi être stockés dans Firebase Firestore pour la synchronisation cloud. Nous prenons des mesures raisonnables pour protéger les données, mais aucun système ne peut garantir une sécurité absolue.',
+        rightsTitle: '6. Vos droits et suppression du compte',
+        rightsBody: 'Vous pouvez vous déconnecter à tout moment. Vous pouvez également supprimer votre compte depuis l’application. Lors de la suppression, l’application tente d’effacer vos données synchronisées dans Firebase et de supprimer le compte d’authentification. Les données locales stockées sur votre appareil sont également supprimées. Vous pouvez aussi effacer uniquement les données locales sans supprimer le compte cloud.',
+        childrenTitle: '7. Enfants',
+        childrenBody: 'Zynex AI n’est pas destiné aux enfants n’ayant pas l’âge requis par la législation locale pour utiliser ce type de service sans consentement parental. Si vous pensez qu’un enfant a fourni des données personnelles de manière inappropriée, contactez-nous pour examen et suppression si nécessaire.',
+        changesTitle: '8. Modifications de la politique',
+        changesBody: 'Nous pouvons modifier cette politique de confidentialité de temps en temps. Si des changements importants sont effectués, nous mettrons à jour la date d’entrée en vigueur sur cette page.',
+        contactTitle: '9. Contact',
+        contactBody: 'Pour toute question relative à la confidentialité ou à la suppression de compte, contactez : alibaradee.mail4@gmail.com',
+        footer: 'Préparé pour la publication de Zynex AI et la conformité Google Play.'
+      },
+      es: {
+        label: 'Español',
+        dir: 'ltr',
+        title: 'Política de privacidad de Zynex AI',
+        subtitle: 'Esta política explica qué datos puede procesar Zynex AI, cómo se usan y qué controles tienen los usuarios.',
+        notice: 'Página oficial de la política de privacidad de la aplicación Zynex AI.',
+        updated: 'Última actualización: 27 de marzo de 2026',
+        app: 'Aplicación: Zynex AI',
+        introTitle: '1. Resumen',
+        introBody: 'Zynex AI es una aplicación de asistente con IA que ofrece chat, mensajes guardados, notas, herramientas de imagen, exportación, suscripciones, sincronización en la nube e inicio de sesión con Google o modo invitado. Solo recopilamos la información necesaria para ofrecer estas funciones y mejorar la fiabilidad del servicio.',
+        collectTitle: '2. Información que recopilamos',
+        collectList: [
+          'Información de la cuenta como tu nombre de perfil de Google, correo electrónico e identificador de cuenta cuando inicias sesión con Google.',
+          'Datos de autenticación anónima cuando usas la aplicación en modo invitado.',
+          'Contenido que creas dentro de la aplicación, como conversaciones, mensajes guardados, notas, solicitudes y ajustes.',
+          'Imágenes y archivos que seleccionas voluntariamente para conversión de imágenes, exportación PDF o funciones de compartir.',
+          'Información de compra y suscripción procesada mediante RevenueCat y las tiendas de aplicaciones.',
+          'Información técnica relacionada con anuncios proporcionada por Google AdMob, como solicitudes de anuncios y señales publicitarias del dispositivo.',
+          'Datos básicos del dispositivo y del uso de la aplicación necesarios para funcionamiento, seguridad, almacenamiento y soporte técnico.'
+        ],
+        useTitle: '3. Cómo usamos la información',
+        useList: [
+          'Para ofrecer respuestas de IA y funciones que solicitas.',
+          'Para sincronizar conversaciones, mensajes guardados y ajustes entre dispositivos cuando usas una cuenta real.',
+          'Para guardar localmente preferencias como idioma, tema, notas e historial de algunas herramientas.',
+          'Para procesar suscripciones, restaurar compras y gestionar acceso premium.',
+          'Para mostrar anuncios a usuarios gratuitos y mejorar el rendimiento de monetización.',
+          'Para proteger la aplicación, reducir abusos y mantener la estabilidad del servicio.'
+        ],
+        shareTitle: '4. Servicios de terceros y uso compartido de datos',
+        shareBody: 'Zynex AI utiliza servicios confiables de terceros para operar funciones esenciales. Tus datos pueden ser procesados por estos proveedores solo cuando sea necesario:',
+        shareList: [
+          'Google Firebase para autenticación y base de datos en la nube.',
+          'Google Sign-In para iniciar sesión.',
+          'Google Generative AI / Gemini API para respuestas de IA.',
+          'Google AdMob para anuncios dentro de la aplicación.',
+          'RevenueCat y la tienda correspondiente para suscripciones y compras.',
+          'Servicios de compartir y exportar cuando eliges compartir o exportar contenido.'
+        ],
+        storageTitle: '5. Almacenamiento y seguridad',
+        storageBody: 'Parte de la información se guarda localmente en tu dispositivo. Si inicias sesión con una cuenta real, tus conversaciones, mensajes guardados y ajustes del perfil también pueden almacenarse en Firebase Firestore para sincronización en la nube. Tomamos medidas razonables para proteger los datos, pero ningún sistema puede garantizar seguridad absoluta.',
+        rightsTitle: '6. Tus derechos y eliminación de cuenta',
+        rightsBody: 'Puedes cerrar sesión en cualquier momento. También puedes eliminar tu cuenta desde la aplicación. Cuando eliminas tu cuenta, la aplicación intenta borrar tus datos sincronizados en Firebase y eliminar la cuenta de autenticación. También se borran los datos locales almacenados en tu dispositivo. Además, puedes limpiar solo los datos locales sin eliminar la cuenta en la nube.',
+        childrenTitle: '7. Menores',
+        childrenBody: 'Zynex AI no está destinado a menores de la edad permitida por la legislación local para usar este tipo de servicios sin consentimiento parental. Si crees que un menor proporcionó datos personales de manera inapropiada, contáctanos para revisarlo y eliminarlos cuando corresponda.',
+        changesTitle: '8. Cambios en la política',
+        changesBody: 'Podemos actualizar esta Política de privacidad ocasionalmente. Si realizamos cambios importantes, actualizaremos la fecha de vigencia en esta página.',
+        contactTitle: '9. Contacto',
+        contactBody: 'Si tienes preguntas sobre privacidad o solicitudes de eliminación de cuenta, contacta a: alibaradee.mail4@gmail.com',
+        footer: 'Preparado para publicación de Zynex AI y cumplimiento de Google Play.'
+      },
+      de: {
+        label: 'Deutsch',
+        dir: 'ltr',
+        title: 'Datenschutzerklärung von Zynex AI',
+        subtitle: 'Diese Richtlinie erklärt, welche Daten Zynex AI verarbeiten kann, wie sie verwendet werden und welche Kontrollmöglichkeiten Nutzer haben.',
+        notice: 'Offizielle Datenschutzseite der Zynex AI App.',
+        updated: 'Letzte Aktualisierung: 27. März 2026',
+        app: 'App: Zynex AI',
+        introTitle: '1. Überblick',
+        introBody: 'Zynex AI ist eine KI-Assistenten-App mit Chat, gespeicherten Nachrichten, Notizen, Bildwerkzeugen, Exportfunktionen, Abonnements, Cloud-Synchronisierung und Anmeldung per Google oder Gastmodus. Wir erfassen nur die Informationen, die zur Bereitstellung dieser Funktionen und zur Verbesserung der Zuverlässigkeit erforderlich sind.',
+        collectTitle: '2. Welche Informationen wir erfassen',
+        collectList: [
+          'Kontoinformationen wie Google-Profilname, E-Mail-Adresse und Konto-ID, wenn Sie sich mit Google anmelden.',
+          'Anonyme Authentifizierungsdaten, wenn Sie die App im Gastmodus verwenden.',
+          'Inhalte, die Sie in der App erstellen, z. B. Unterhaltungen, gespeicherte Nachrichten, Notizen, Eingaben und Einstellungen.',
+          'Bilder und Dateien, die Sie bewusst für Bildkonvertierung, PDF-Export oder Teilen-Funktionen auswählen.',
+          'Kauf- und Abonnementinformationen, die über RevenueCat und App-Stores verarbeitet werden.',
+          'Werbetechnische Informationen von Google AdMob, etwa Anzeigenanfragen und gerätebezogene Werbesignale.',
+          'Grundlegende Geräte- und Nutzungsdaten, die für Funktion, Sicherheit, Speicherung und Fehlerbehebung nötig sind.'
+        ],
+        useTitle: '3. Wie wir Informationen verwenden',
+        useList: [
+          'Zur Bereitstellung von KI-Antworten und App-Funktionen, die Sie anfordern.',
+          'Zur Synchronisierung von Unterhaltungen, gespeicherten Nachrichten und Einstellungen zwischen Geräten bei Verwendung eines echten Kontos.',
+          'Zur lokalen Speicherung von Präferenzen wie Sprache, Design, Notizen und Werkzeugverlauf.',
+          'Zur Verarbeitung von Abonnements, Wiederherstellung von Käufen und Verwaltung des Premium-Zugangs.',
+          'Zur Anzeige von Werbung für kostenlose Nutzer und zur Verbesserung der Monetarisierungsleistung.',
+          'Zum Schutz der App, zur Missbrauchsvermeidung und zur Stabilisierung des Dienstes.'
+        ],
+        shareTitle: '4. Drittanbieter und Datenweitergabe',
+        shareBody: 'Zynex AI verwendet vertrauenswürdige Drittanbieter, um zentrale Funktionen zu betreiben. Ihre Daten können von diesen Anbietern nur verarbeitet werden, soweit dies erforderlich ist:',
+        shareList: [
+          'Google Firebase für Authentifizierung und Cloud-Datenbank.',
+          'Google Sign-In für die Anmeldung.',
+          'Google Generative AI / Gemini API für KI-Antworten.',
+          'Google AdMob für Werbung in der App.',
+          'RevenueCat und der jeweilige App-Store für Abonnements und Käufe.',
+          'Teilen- und Exportdienste, wenn Sie Inhalte ausdrücklich exportieren oder teilen.'
+        ],
+        storageTitle: '5. Speicherung und Sicherheit',
+        storageBody: 'Ein Teil der Informationen wird lokal auf Ihrem Gerät gespeichert. Wenn Sie sich mit einem echten Konto anmelden, können Unterhaltungen, gespeicherte Nachrichten und Profileinstellungen auch in Firebase Firestore zur Cloud-Synchronisierung gespeichert werden. Wir ergreifen angemessene Maßnahmen zum Schutz Ihrer Daten, aber kein System kann absolute Sicherheit garantieren.',
+        rightsTitle: '6. Ihre Rechte und Kontolöschung',
+        rightsBody: 'Sie können sich jederzeit abmelden. Sie können Ihr Konto auch direkt in der App löschen. Beim Löschen versucht die App, synchronisierte Daten aus Firebase zu entfernen und das Authentifizierungskonto zu löschen. Lokal auf Ihrem Gerät gespeicherte Daten werden ebenfalls gelöscht. Sie können außerdem nur lokale Daten löschen, ohne das Cloud-Konto zu entfernen.',
+        childrenTitle: '7. Kinder',
+        childrenBody: 'Zynex AI ist nicht für Kinder gedacht, die nach lokalem Recht solche Dienste nicht ohne Zustimmung der Eltern nutzen dürfen. Wenn Sie glauben, dass ein Kind personenbezogene Daten unzulässig bereitgestellt hat, kontaktieren Sie uns bitte.',
+        changesTitle: '8. Änderungen dieser Richtlinie',
+        changesBody: 'Wir können diese Datenschutzerklärung von Zeit zu Zeit aktualisieren. Wenn wesentliche Änderungen vorgenommen werden, aktualisieren wir das Datum auf dieser Seite.',
+        contactTitle: '9. Kontakt',
+        contactBody: 'Bei Fragen zum Datenschutz oder zu Kontolöschungen kontaktieren Sie: alibaradee.mail4@gmail.com',
+        footer: 'Erstellt für Zynex AI und die Google-Play-Konformität.'
+      },
+      tr: {
+        label: 'Türkçe',
+        dir: 'ltr',
+        title: 'Zynex AI Gizlilik Politikası',
+        subtitle: 'Bu politika, Zynex AI uygulamasının hangi verileri işleyebileceğini, bunları nasıl kullandığını ve kullanıcıların hangi kontrol haklarına sahip olduğunu açıklar.',
+        notice: 'Bu sayfa Zynex AI uygulamasının resmi gizlilik politikası sayfasıdır.',
+        updated: 'Son güncelleme: 27 Mart 2026',
+        app: 'Uygulama: Zynex AI',
+        introTitle: '1. Genel Bakış',
+        introBody: 'Zynex AI; sohbet, kayıtlı mesajlar, notlar, görsel araçları, dışa aktarma, abonelikler, bulut senkronizasyonu ve Google ile giriş veya misafir modu sunan bir yapay zeka asistan uygulamasıdır. Yalnızca bu özellikleri sunmak ve hizmetin güvenilirliğini artırmak için gerekli bilgileri toplarız.',
+        collectTitle: '2. Topladığımız Bilgiler',
+        collectList: [
+          'Google ile giriş yaptığınızda Google profil adı, e-posta adresi ve hesap kimliği gibi hesap bilgileri.',
+          'Uygulamayı misafir modunda kullandığınızda anonim kimlik doğrulama verileri.',
+          'Uygulama içinde oluşturduğunuz konuşmalar, kayıtlı mesajlar, notlar, istemler ve ayarlar gibi içerikler.',
+          'Görsel dönüştürme, PDF dışa aktarma veya paylaşım özellikleri için bilerek seçtiğiniz görseller ve dosyalar.',
+          'RevenueCat ve uygulama mağazaları üzerinden işlenen satın alma ve abonelik durumu bilgileri.',
+          'Google AdMob tarafından sağlanan reklam istekleri ve cihaza bağlı reklam sinyalleri gibi reklam teknik verileri.',
+          'Uygulamanın çalışması, güvenliği, depolama ve sorun giderme için gereken temel cihaz ve kullanım verileri.'
+        ],
+        useTitle: '3. Bilgileri Nasıl Kullanıyoruz',
+        useList: [
+          'Talep ettiğiniz yapay zeka yanıtlarını ve uygulama özelliklerini sağlamak için.',
+          'Gerçek bir hesap kullandığınızda konuşmalarınızı, kayıtlı mesajlarınızı ve ayarlarınızı cihazlar arasında senkronize etmek için.',
+          'Dil, tema, notlar ve bazı araç geçmişi gibi tercihleri cihazınızda yerel olarak saklamak için.',
+          'Abonelikleri işlemek, satın almaları geri yüklemek ve premium erişimi yönetmek için.',
+          'Ücretsiz kullanıcılar için reklam göstermek ve gelir performansını iyileştirmek için.',
+          'Uygulamayı korumak, kötüye kullanımı azaltmak ve hizmeti kararlı tutmak için.'
+        ],
+        shareTitle: '4. Üçüncü Taraf Hizmetler ve Veri Paylaşımı',
+        shareBody: 'Zynex AI temel özellikleri çalıştırmak için güvenilir üçüncü taraf hizmetleri kullanır. Verileriniz yalnızca gerekli olduğunda bu sağlayıcılar tarafından işlenebilir:',
+        shareList: [
+          'Kimlik doğrulama ve bulut veritabanı için Google Firebase.',
+          'Giriş işlemleri için Google Sign-In.',
+          'Yapay zeka yanıtları için Google Generative AI / Gemini API.',
+          'Uygulama içi reklamlar için Google AdMob.',
+          'Abonelik ve satın alma yönetimi için RevenueCat ve ilgili uygulama mağazası.',
+          'İçeriği dışa aktarmayı veya paylaşmayı siz seçtiğinizde paylaşım ve dışa aktarma servisleri.'
+        ],
+        storageTitle: '5. Depolama ve Güvenlik',
+        storageBody: 'Bazı bilgiler cihazınızda yerel olarak saklanır. Gerçek bir hesapla giriş yaparsanız konuşmalar, kayıtlı mesajlar ve profil ayarları bulut senkronizasyonu için Firebase Firestore’da da tutulabilir. Verileri korumak için makul adımlar atıyoruz ancak hiçbir sistem mutlak güvenlik garantisi veremez.',
+        rightsTitle: '6. Haklarınız ve Hesap Silme',
+        rightsBody: 'İstediğiniz zaman çıkış yapabilirsiniz. Ayrıca hesabınızı uygulama içinden silebilirsiniz. Hesabınızı sildiğinizde uygulama, senkronize verilerinizi Firebase’den silmeye ve kimlik doğrulama hesabını kaldırmaya çalışır. Cihazınızdaki yerel veriler de temizlenir. Bulut hesabını silmeden yalnızca yerel verileri de temizleyebilirsiniz.',
+        childrenTitle: '7. Çocuklar',
+        childrenBody: 'Zynex AI, yerel yasalara göre ebeveyn izni olmadan bu tür hizmetleri kullanma yaşının altındaki çocuklar için tasarlanmamıştır. Bir çocuğun uygunsuz şekilde kişisel veri sağladığını düşünüyorsanız bizimle iletişime geçin.',
+        changesTitle: '8. Politika Değişiklikleri',
+        changesBody: 'Bu Gizlilik Politikasını zaman zaman güncelleyebiliriz. Önemli değişiklikler yapılırsa bu sayfadaki geçerlilik tarihini güncelleriz.',
+        contactTitle: '9. İletişim',
+        contactBody: 'Gizlilik soruları veya hesap silme talepleri için iletişim: alibaradee.mail4@gmail.com',
+        footer: 'Zynex AI yayını ve Google Play uyumluluğu için hazırlanmıştır.'
+      },
+      hi: {
+        label: 'हिन्दी',
+        dir: 'ltr',
+        title: 'Zynex AI गोपनीयता नीति',
+        subtitle: 'यह नीति बताती है कि Zynex AI कौन सा डेटा प्रोसेस कर सकता है, उसका उपयोग कैसे किया जाता है, और उपयोगकर्ताओं के पास कौन से नियंत्रण हैं।',
+        notice: 'यह Zynex AI ऐप की आधिकारिक गोपनीयता नीति पेज है।',
+        updated: 'अंतिम अपडेट: 27 मार्च 2026',
+        app: 'ऐप: Zynex AI',
+        introTitle: '1. अवलोकन',
+        introBody: 'Zynex AI एक AI सहायक ऐप है जो चैट, सेव किए गए संदेश, नोट्स, इमेज टूल्स, एक्सपोर्ट, सब्सक्रिप्शन, क्लाउड सिंक, और Google साइन-इन या गेस्ट मोड प्रदान करता है। हम केवल वही जानकारी एकत्र करते हैं जो इन सुविधाओं को प्रदान करने और सेवा की विश्वसनीयता बढ़ाने के लिए आवश्यक है।',
+        collectTitle: '2. हम कौन सी जानकारी एकत्र करते हैं',
+        collectList: [
+          'जब आप Google से साइन-इन करते हैं, तब आपका Google प्रोफाइल नाम, ईमेल पता और अकाउंट आईडी जैसी खाता जानकारी।',
+          'जब आप ऐप को गेस्ट मोड में उपयोग करते हैं, तब अनाम प्रमाणीकरण डेटा।',
+          'ऐप के अंदर बनाया गया आपका कंटेंट, जैसे बातचीत, सेव किए गए संदेश, नोट्स, प्रॉम्प्ट और सेटिंग्स।',
+          'वे इमेज और फाइलें जिन्हें आप इमेज कन्वर्जन, PDF एक्सपोर्ट या शेयरिंग के लिए स्वयं चुनते हैं।',
+          'RevenueCat और ऐप स्टोर्स द्वारा प्रोसेस की जाने वाली खरीद और सब्सक्रिप्शन स्थिति जानकारी।',
+          'Google AdMob द्वारा उपलब्ध कराई गई विज्ञापन-संबंधी तकनीकी जानकारी, जैसे विज्ञापन अनुरोध और डिवाइस-स्तरीय विज्ञापन संकेत।',
+          'ऐप की कार्यक्षमता, सुरक्षा, स्टोरेज और समस्या समाधान के लिए आवश्यक बुनियादी डिवाइस और उपयोग डेटा।'
+        ],
+        useTitle: '3. हम जानकारी का उपयोग कैसे करते हैं',
+        useList: [
+          'आपके द्वारा मांगी गई AI प्रतिक्रियाएँ और ऐप सुविधाएँ प्रदान करने के लिए।',
+          'वास्तविक खाते के साथ उपयोग करने पर आपकी बातचीत, सेव किए गए संदेश और सेटिंग्स को डिवाइसों के बीच सिंक करने के लिए।',
+          'भाषा, थीम, नोट्स और कुछ टूल हिस्ट्री जैसी प्राथमिकताएँ आपके डिवाइस पर स्थानीय रूप से सहेजने के लिए।',
+          'सब्सक्रिप्शन प्रोसेस करने, खरीद बहाल करने और प्रीमियम एक्सेस प्रबंधित करने के लिए।',
+          'मुफ़्त उपयोगकर्ताओं को विज्ञापन दिखाने और ऐप की कमाई प्रदर्शन सुधारने के लिए।',
+          'ऐप की सुरक्षा, दुरुपयोग कम करने और सेवा को स्थिर रखने के लिए।'
+        ],
+        shareTitle: '4. तृतीय-पक्ष सेवाएँ और डेटा साझाकरण',
+        shareBody: 'Zynex AI मुख्य सुविधाओं को संचालित करने के लिए विश्वसनीय तृतीय-पक्ष सेवाओं का उपयोग करता है। आपकी जानकारी केवल आवश्यकता होने पर इन प्रदाताओं द्वारा प्रोसेस की जा सकती है:',
+        shareList: [
+          'प्रमाणीकरण और क्लाउड डेटाबेस के लिए Google Firebase।',
+          'लॉगिन के लिए Google Sign-In।',
+          'AI उत्तरों के लिए Google Generative AI / Gemini API।',
+          'ऐप के अंदर विज्ञापनों के लिए Google AdMob।',
+          'सब्सक्रिप्शन और खरीद प्रबंधन के लिए RevenueCat और संबंधित ऐप स्टोर।',
+          'जब आप कंटेंट शेयर या एक्सपोर्ट करना चुनते हैं, तब शेयर और एक्सपोर्ट सेवाएँ।'
+        ],
+        storageTitle: '5. स्टोरेज और सुरक्षा',
+        storageBody: 'कुछ जानकारी आपके डिवाइस पर स्थानीय रूप से संग्रहीत की जाती है। यदि आप वास्तविक खाते से साइन-इन करते हैं, तो आपकी बातचीत, सेव किए गए संदेश और प्रोफाइल सेटिंग्स क्लाउड सिंक के लिए Firebase Firestore में भी संग्रहीत हो सकती हैं। हम डेटा की सुरक्षा के लिए उचित कदम उठाते हैं, लेकिन कोई भी सिस्टम पूर्ण सुरक्षा की गारंटी नहीं दे सकता।',
+        rightsTitle: '6. आपके अधिकार और खाता हटाना',
+        rightsBody: 'आप किसी भी समय साइन-आउट कर सकते हैं। आप ऐप के अंदर से अपना खाता भी हटा सकते हैं। जब आप अपना खाता हटाते हैं, तो ऐप Firebase से सिंक किया गया डेटा हटाने और प्रमाणीकरण खाता हटाने का प्रयास करता है। आपके डिवाइस पर संग्रहीत स्थानीय डेटा भी साफ कर दिया जाता है। आप क्लाउड खाता हटाए बिना केवल स्थानीय डेटा भी मिटा सकते हैं।',
+        childrenTitle: '7. बच्चे',
+        childrenBody: 'Zynex AI उन बच्चों के लिए नहीं है जो स्थानीय कानून के अनुसार अभिभावक की सहमति के बिना इस प्रकार की सेवाओं का उपयोग करने की कानूनी आयु से कम हैं। यदि आपको लगता है कि किसी बच्चे ने अनुचित रूप से व्यक्तिगत डेटा साझा किया है, तो हमसे संपर्क करें।',
+        changesTitle: '8. नीति में परिवर्तन',
+        changesBody: 'हम समय-समय पर इस गोपनीयता नीति को अपडेट कर सकते हैं। यदि हम महत्वपूर्ण परिवर्तन करते हैं, तो इस पेज पर प्रभावी तिथि अपडेट की जाएगी।',
+        contactTitle: '9. संपर्क',
+        contactBody: 'गोपनीयता संबंधी प्रश्नों या खाता हटाने के अनुरोधों के लिए संपर्क करें: alibaradee.mail4@gmail.com',
+        footer: 'Zynex AI प्रकाशन और Google Play अनुपालन के लिए तैयार किया गया।'
+      },
+      zh: {
+        label: '中文',
+        dir: 'ltr',
+        title: 'Zynex AI 隐私政策',
+        subtitle: '本政策说明 Zynex AI 可能处理哪些数据、如何使用这些数据，以及用户拥有哪些控制权。',
+        notice: '这是 Zynex AI 应用的官方隐私政策页面。',
+        updated: '最后更新：2026年3月27日',
+        app: '应用：Zynex AI',
+        introTitle: '1. 概述',
+        introBody: 'Zynex AI 是一款 AI 助手应用，提供聊天、已保存消息、笔记、图片工具、导出、订阅、云同步，以及 Google 登录或游客模式。我们只收集提供这些功能和提升服务稳定性所必需的信息。',
+        collectTitle: '2. 我们收集的信息',
+        collectList: [
+          '当您使用 Google 登录时，我们会处理您的 Google 资料名称、电子邮件地址和账户标识等账户信息。',
+          '当您以游客模式使用应用时，会处理匿名身份验证数据。',
+          '您在应用内创建的内容，例如对话、已保存消息、笔记、提示词和设置。',
+          '您主动选择用于图片转换、PDF 导出或分享功能的图片和文件。',
+          '通过 RevenueCat 和应用商店处理的购买和订阅状态信息。',
+          'Google AdMob 提供的与广告相关的技术信息，例如广告请求和设备级广告信号。',
+          '应用运行、安全、存储和问题排查所需的基本设备和使用数据。'
+        ],
+        useTitle: '3. 我们如何使用这些信息',
+        useList: [
+          '用于提供您请求的 AI 回复和应用功能。',
+          '当您使用正式账户时，用于在设备之间同步对话、已保存消息和设置。',
+          '用于在本地保存您的偏好，例如语言、主题、笔记和部分工具历史。',
+          '用于处理订阅、恢复购买以及管理高级访问权限。',
+          '用于向免费用户展示广告并提升变现效果。',
+          '用于保护应用、减少滥用并保持服务稳定。'
+        ],
+        shareTitle: '4. 第三方服务与数据共享',
+        shareBody: 'Zynex AI 使用可信赖的第三方服务来运行核心功能。您的数据仅会在必要情况下由这些服务商处理：',
+        shareList: [
+          'Google Firebase，用于身份验证和云数据库。',
+          'Google Sign-In，用于登录。',
+          'Google Generative AI / Gemini API，用于 AI 回复。',
+          'Google AdMob，用于应用内广告。',
+          'RevenueCat 及相关应用商店，用于订阅和购买管理。',
+          '当您主动选择导出或分享内容时使用的分享与导出服务。'
+        ],
+        storageTitle: '5. 存储与安全',
+        storageBody: '部分信息会存储在您的设备本地。如果您使用正式账户登录，您的对话、已保存消息和个人资料设置也可能存储在 Firebase Firestore 中以进行云同步。我们会采取合理措施保护数据，但任何系统都无法保证绝对安全。',
+        rightsTitle: '6. 您的权利与账户删除',
+        rightsBody: '您可以随时退出登录，也可以在应用内删除账户。删除账户时，应用会尝试删除您在 Firebase 中同步的数据，并删除身份验证账户。存储在设备上的本地数据也会被清除。您也可以仅清除本地数据，而不删除云端账户。',
+        childrenTitle: '7. 儿童',
+        childrenBody: 'Zynex AI 不面向未达到当地法律规定、需在家长同意下才能使用此类服务的儿童。如果您认为儿童不当提供了个人信息，请联系我们以便审查并在适当情况下删除。',
+        changesTitle: '8. 政策变更',
+        changesBody: '我们可能会不时更新本隐私政策。如有重大变更，我们会更新本页面上的生效日期。',
+        contactTitle: '9. 联系方式',
+        contactBody: '如果您有隐私问题或账户删除请求，请联系：alibaradee.mail4@gmail.com',
+        footer: '本页面用于 Zynex AI 发布及 Google Play 合规。'
+      },
+      ja: {
+        label: '日本語',
+        dir: 'ltr',
+        title: 'Zynex AI プライバシーポリシー',
+        subtitle: 'このポリシーでは、Zynex AI が処理する可能性のあるデータ、その利用方法、ユーザーが持つ管理権限について説明します。',
+        notice: 'これは Zynex AI アプリの公式プライバシーポリシーページです。',
+        updated: '最終更新日: 2026年3月27日',
+        app: 'アプリ: Zynex AI',
+        introTitle: '1. 概要',
+        introBody: 'Zynex AI は、チャット、保存メッセージ、メモ、画像ツール、エクスポート、サブスクリプション、クラウド同期、Google サインインまたはゲストモードを提供する AI アシスタントアプリです。これらの機能を提供し、サービスの信頼性を高めるために必要な情報のみを収集します。',
+        collectTitle: '2. 収集する情報',
+        collectList: [
+          'Google でサインインした場合の Google プロフィール名、メールアドレス、アカウント識別子などのアカウント情報。',
+          'ゲストモードで利用する場合の匿名認証データ。',
+          '会話、保存メッセージ、メモ、プロンプト、設定など、アプリ内で作成するコンテンツ。',
+          '画像変換、PDF 出力、共有機能のためにユーザーが自ら選択した画像やファイル。',
+          'RevenueCat およびアプリストアを通じて処理される購入・サブスクリプション情報。',
+          'Google AdMob によって提供される広告関連の技術情報（広告リクエストや端末レベルの広告シグナルなど）。',
+          'アプリの動作、安全性、保存、トラブル対応のために必要な基本的な端末情報と利用情報。'
+        ],
+        useTitle: '3. 情報の利用方法',
+        useList: [
+          'ユーザーが求めた AI 応答やアプリ機能を提供するため。',
+          '実アカウント利用時に会話、保存メッセージ、設定を複数端末間で同期するため。',
+          '言語、テーマ、メモ、一部ツール履歴などの設定を端末に保存するため。',
+          'サブスクリプション処理、購入復元、プレミアムアクセス管理のため。',
+          '無料ユーザーに広告を表示し、収益化のパフォーマンスを改善するため。',
+          'アプリの保護、不正利用の抑止、サービス安定性の維持のため。'
+        ],
+        shareTitle: '4. 第三者サービスとデータ共有',
+        shareBody: 'Zynex AI は主要機能の提供のために信頼できる第三者サービスを利用しています。必要な範囲でのみ、これらの提供者にデータが処理される場合があります。',
+        shareList: [
+          '認証とクラウドデータベースのための Google Firebase。',
+          'ログインのための Google Sign-In。',
+          'AI 応答のための Google Generative AI / Gemini API。',
+          'アプリ内広告のための Google AdMob。',
+          'サブスクリプションと購入管理のための RevenueCat および関連ストア。',
+          'ユーザーが明示的に共有またはエクスポートを選択した場合の共有・出力サービス。'
+        ],
+        storageTitle: '5. 保存とセキュリティ',
+        storageBody: '一部の情報は端末にローカル保存されます。実アカウントでサインインした場合、会話、保存メッセージ、プロフィール設定はクラウド同期のため Firebase Firestore に保存される場合があります。データ保護のため合理的な措置を講じますが、絶対的な安全性は保証できません。',
+        rightsTitle: '6. お客様の権利とアカウント削除',
+        rightsBody: 'ユーザーはいつでもサインアウトできます。また、アプリ内からアカウントを削除できます。アカウント削除時には、Firebase に同期されたデータの削除と認証アカウントの削除を試みます。端末に保存されたローカルデータも削除されます。クラウドアカウントを削除せずにローカルデータのみを消去することもできます。',
+        childrenTitle: '7. 子どもについて',
+        childrenBody: 'Zynex AI は、保護者の同意なしにこの種のサービスを利用できる法定年齢に達していない子どもを対象としていません。子どもが不適切に個人情報を提供したと思われる場合はご連絡ください。',
+        changesTitle: '8. ポリシーの変更',
+        changesBody: '本プライバシーポリシーは随時更新される場合があります。重要な変更がある場合は、このページの更新日を変更します。',
+        contactTitle: '9. お問い合わせ',
+        contactBody: 'プライバシーに関するご質問やアカウント削除のご依頼は、alibaradee.mail4@gmail.com までご連絡ください。',
+        footer: 'Zynex AI の公開と Google Play 準拠のために作成。'
+      },
+      ko: {
+        label: '한국어',
+        dir: 'ltr',
+        title: 'Zynex AI 개인정보처리방침',
+        subtitle: '이 정책은 Zynex AI가 어떤 데이터를 처리할 수 있는지, 이를 어떻게 사용하는지, 그리고 사용자가 어떤 통제권을 가지는지 설명합니다.',
+        notice: '이 페이지는 Zynex AI 앱의 공식 개인정보처리방침 페이지입니다.',
+        updated: '최종 업데이트: 2026년 3월 27일',
+        app: '앱: Zynex AI',
+        introTitle: '1. 개요',
+        introBody: 'Zynex AI는 채팅, 저장된 메시지, 메모, 이미지 도구, 내보내기, 구독, 클라우드 동기화, Google 로그인 또는 게스트 모드를 제공하는 AI 도우미 앱입니다. 이러한 기능을 제공하고 서비스의 안정성을 높이는 데 필요한 정보만 수집합니다.',
+        collectTitle: '2. 수집하는 정보',
+        collectList: [
+          'Google로 로그인할 때 Google 프로필 이름, 이메일 주소, 계정 식별자 등의 계정 정보.',
+          '게스트 모드에서 앱을 사용할 때의 익명 인증 데이터.',
+          '대화, 저장된 메시지, 메모, 프롬프트, 설정 등 앱 내에서 사용자가 생성하는 콘텐츠.',
+          '이미지 변환, PDF 내보내기 또는 공유 기능을 위해 사용자가 직접 선택한 이미지와 파일.',
+          'RevenueCat 및 앱 스토어를 통해 처리되는 구매 및 구독 상태 정보.',
+          'Google AdMob이 제공하는 광고 요청 및 기기 수준 광고 신호 등의 광고 관련 기술 정보.',
+          '앱 기능, 보안, 저장, 문제 해결을 위해 필요한 기본 기기 및 사용 데이터.'
+        ],
+        useTitle: '3. 정보 사용 방법',
+        useList: [
+          '사용자가 요청한 AI 응답과 앱 기능을 제공하기 위해.',
+          '실제 계정 사용 시 대화, 저장된 메시지, 설정을 기기 간 동기화하기 위해.',
+          '언어, 테마, 메모, 일부 도구 기록과 같은 기본 설정을 기기에 저장하기 위해.',
+          '구독 처리, 구매 복원, 프리미엄 접근 권한 관리 목적.',
+          '무료 사용자에게 광고를 표시하고 수익 성과를 개선하기 위해.',
+          '앱 보호, 오남용 감소, 서비스 안정성 유지 목적.'
+        ],
+        shareTitle: '4. 제3자 서비스 및 데이터 공유',
+        shareBody: 'Zynex AI는 핵심 기능 제공을 위해 신뢰할 수 있는 제3자 서비스를 사용합니다. 귀하의 데이터는 필요한 범위에서만 이러한 제공업체에 의해 처리될 수 있습니다.',
+        shareList: [
+          '인증 및 클라우드 데이터베이스를 위한 Google Firebase.',
+          '로그인을 위한 Google Sign-In.',
+          'AI 응답을 위한 Google Generative AI / Gemini API.',
+          '앱 내 광고를 위한 Google AdMob.',
+          '구독 및 구매 관리를 위한 RevenueCat 및 해당 앱 스토어.',
+          '사용자가 명시적으로 공유 또는 내보내기를 선택한 경우의 공유 및 내보내기 서비스.'
+        ],
+        storageTitle: '5. 저장 및 보안',
+        storageBody: '일부 정보는 기기에 로컬로 저장됩니다. 실제 계정으로 로그인하면 대화, 저장된 메시지, 프로필 설정이 클라우드 동기화를 위해 Firebase Firestore에 저장될 수 있습니다. 우리는 데이터를 보호하기 위해 합리적인 조치를 취하지만 어떤 시스템도 절대적인 보안을 보장할 수는 없습니다.',
+        rightsTitle: '6. 귀하의 권리 및 계정 삭제',
+        rightsBody: '언제든지 로그아웃할 수 있습니다. 또한 앱 내에서 계정을 삭제할 수 있습니다. 계정을 삭제하면 앱은 Firebase에 동기화된 데이터를 제거하고 인증 계정을 삭제하려고 시도합니다. 기기에 저장된 로컬 데이터도 함께 삭제됩니다. 클라우드 계정을 삭제하지 않고 로컬 데이터만 지우는 것도 가능합니다.',
+        childrenTitle: '7. 아동',
+        childrenBody: 'Zynex AI는 현지 법률상 부모 동의 없이 이러한 서비스를 이용할 수 없는 연령의 아동을 대상으로 하지 않습니다. 아동이 부적절하게 개인정보를 제공했다고 생각되면 연락해 주세요.',
+        changesTitle: '8. 정책 변경',
+        changesBody: '본 개인정보처리방침은 수시로 업데이트될 수 있습니다. 중요한 변경이 있는 경우 이 페이지의 날짜를 수정합니다.',
+        contactTitle: '9. 문의',
+        contactBody: '개인정보 관련 문의 또는 계정 삭제 요청: alibaradee.mail4@gmail.com',
+        footer: 'Zynex AI 출시 및 Google Play 규정 준수를 위해 작성됨.'
+      },
+      pt: {
+        label: 'Português',
+        dir: 'ltr',
+        title: 'Política de Privacidade do Zynex AI',
+        subtitle: 'Esta política explica quais dados o Zynex AI pode processar, como eles são usados e quais controles os usuários possuem.',
+        notice: 'Esta e a pagina oficial da politica de privacidade do aplicativo Zynex AI.',
+        updated: 'Última atualização: 27 de março de 2026',
+        app: 'Aplicativo: Zynex AI',
+        introTitle: '1. Visão geral',
+        introBody: 'Zynex AI é um aplicativo assistente com IA que oferece chat, mensagens salvas, notas, ferramentas de imagem, exportação, assinaturas, sincronização em nuvem e login com Google ou modo visitante. Coletamos apenas as informações necessárias para fornecer esses recursos e melhorar a confiabilidade do serviço.',
+        collectTitle: '2. Informações que coletamos',
+        collectList: [
+          'Informações da conta, como nome de perfil do Google, endereço de e-mail e identificador da conta, quando você entra com Google.',
+          'Dados de autenticação anônima quando você usa o aplicativo no modo visitante.',
+          'Conteúdo criado por você dentro do aplicativo, como conversas, mensagens salvas, notas, prompts e configurações.',
+          'Imagens e arquivos que você seleciona intencionalmente para conversão de imagem, exportação de PDF ou compartilhamento.',
+          'Informações de compra e status de assinatura processadas por RevenueCat e pelas lojas de aplicativos.',
+          'Informações técnicas relacionadas a anúncios fornecidas pelo Google AdMob, como solicitações de anúncios e sinais de publicidade do dispositivo.',
+          'Dados básicos do dispositivo e do uso do aplicativo necessários para funcionamento, segurança, armazenamento e suporte técnico.'
+        ],
+        useTitle: '3. Como usamos as informações',
+        useList: [
+          'Para fornecer respostas de IA e recursos solicitados por você.',
+          'Para sincronizar conversas, mensagens salvas e configurações entre dispositivos quando você usa uma conta real.',
+          'Para salvar localmente preferências como idioma, tema, notas e histórico de algumas ferramentas.',
+          'Para processar assinaturas, restaurar compras e gerenciar acesso premium.',
+          'Para mostrar anúncios aos usuários gratuitos e melhorar o desempenho de monetização.',
+          'Para proteger o aplicativo, reduzir abusos e manter a estabilidade do serviço.'
+        ],
+        shareTitle: '4. Serviços de terceiros e compartilhamento de dados',
+        shareBody: 'O Zynex AI utiliza serviços confiáveis de terceiros para operar recursos essenciais. Seus dados podem ser processados por esses provedores apenas quando necessário:',
+        shareList: [
+          'Google Firebase para autenticação e banco de dados em nuvem.',
+          'Google Sign-In para login.',
+          'Google Generative AI / Gemini API para respostas de IA.',
+          'Google AdMob para anúncios no aplicativo.',
+          'RevenueCat e a loja de aplicativos correspondente para gerenciamento de assinaturas e compras.',
+          'Serviços de compartilhamento e exportação quando você escolhe exportar ou compartilhar conteúdo.'
+        ],
+        storageTitle: '5. Armazenamento e segurança',
+        storageBody: 'Parte das informações é armazenada localmente no seu dispositivo. Se você entrar com uma conta real, suas conversas, mensagens salvas e configurações de perfil também podem ser armazenadas no Firebase Firestore para sincronização em nuvem. Tomamos medidas razoáveis para proteger os dados, mas nenhum sistema pode garantir segurança absoluta.',
+        rightsTitle: '6. Seus direitos e exclusão da conta',
+        rightsBody: 'Você pode sair da conta a qualquer momento. Também pode excluir sua conta dentro do aplicativo. Ao excluir sua conta, o aplicativo tenta remover os dados sincronizados do Firebase e excluir a conta de autenticação. Os dados locais armazenados no dispositivo também são apagados. Você também pode limpar apenas os dados locais sem excluir a conta na nuvem.',
+        childrenTitle: '7. Crianças',
+        childrenBody: 'O Zynex AI não se destina a crianças abaixo da idade permitida pela legislação local para usar esses serviços sem consentimento dos pais. Se você acredita que uma criança forneceu dados pessoais de forma inadequada, entre em contato conosco.',
+        changesTitle: '8. Alterações nesta política',
+        changesBody: 'Podemos atualizar esta Política de Privacidade periodicamente. Se fizermos alterações relevantes, atualizaremos a data nesta página.',
+        contactTitle: '9. Contato',
+        contactBody: 'Para dúvidas sobre privacidade ou solicitações de exclusão de conta, contate: alibaradee.mail4@gmail.com',
+        footer: 'Preparado para publicação do Zynex AI e conformidade com o Google Play.'
+      },
+      ru: {
+        label: 'Русский',
+        dir: 'ltr',
+        title: 'Политика конфиденциальности Zynex AI',
+        subtitle: 'В этой политике объясняется, какие данные может обрабатывать Zynex AI, как они используются и какие права контроля есть у пользователей.',
+        notice: 'Это официальная страница политики конфиденциальности приложения Zynex AI.',
+        updated: 'Последнее обновление: 27 марта 2026 г.',
+        app: 'Приложение: Zynex AI',
+        introTitle: '1. Обзор',
+        introBody: 'Zynex AI — это приложение ИИ-помощника с чатами, сохранёнными сообщениями, заметками, инструментами для изображений, экспортом, подписками, облачной синхронизацией и входом через Google или гостевой режим. Мы собираем только ту информацию, которая необходима для работы этих функций и повышения надёжности сервиса.',
+        collectTitle: '2. Какие данные мы собираем',
+        collectList: [
+          'Данные аккаунта, такие как имя профиля Google, адрес электронной почты и идентификатор аккаунта при входе через Google.',
+          'Данные анонимной аутентификации при использовании приложения в гостевом режиме.',
+          'Контент, который вы создаёте в приложении: диалоги, сохранённые сообщения, заметки, запросы и настройки.',
+          'Изображения и файлы, которые вы сознательно выбираете для конвертации изображений, экспорта в PDF или отправки.',
+          'Информация о покупках и статусе подписки, обрабатываемая через RevenueCat и магазины приложений.',
+          'Техническая информация, связанная с рекламой, предоставляемая Google AdMob, включая рекламные запросы и рекламные сигналы устройства.',
+          'Базовые данные об устройстве и использовании приложения, необходимые для работы, безопасности, хранения и устранения неполадок.'
+        ],
+        useTitle: '3. Как мы используем информацию',
+        useList: [
+          'Для предоставления ответов ИИ и функций приложения, которые вы запрашиваете.',
+          'Для синхронизации диалогов, сохранённых сообщений и настроек между устройствами при использовании реального аккаунта.',
+          'Для локального сохранения ваших предпочтений, таких как язык, тема, заметки и история некоторых инструментов.',
+          'Для обработки подписок, восстановления покупок и управления премиум-доступом.',
+          'Для показа рекламы бесплатным пользователям и улучшения эффективности монетизации.',
+          'Для защиты приложения, снижения злоупотреблений и поддержания стабильности сервиса.'
+        ],
+        shareTitle: '4. Сторонние сервисы и передача данных',
+        shareBody: 'Zynex AI использует надёжные сторонние сервисы для работы ключевых функций. Ваши данные могут обрабатываться этими поставщиками только при необходимости:',
+        shareList: [
+          'Google Firebase для аутентификации и облачной базы данных.',
+          'Google Sign-In для входа в систему.',
+          'Google Generative AI / Gemini API для ИИ-ответов.',
+          'Google AdMob для рекламы в приложении.',
+          'RevenueCat и соответствующий магазин приложений для управления подписками и покупками.',
+          'Сервисы обмена и экспорта, когда вы сами выбираете отправку или экспорт контента.'
+        ],
+        storageTitle: '5. Хранение и безопасность',
+        storageBody: 'Часть информации хранится локально на вашем устройстве. Если вы входите с реальным аккаунтом, ваши диалоги, сохранённые сообщения и настройки профиля также могут храниться в Firebase Firestore для облачной синхронизации. Мы предпринимаем разумные меры для защиты данных, но ни одна система не гарантирует абсолютную безопасность.',
+        rightsTitle: '6. Ваши права и удаление аккаунта',
+        rightsBody: 'Вы можете выйти из аккаунта в любое время. Также вы можете удалить аккаунт из приложения. При удалении аккаунта приложение пытается удалить синхронизированные данные из Firebase и удалить сам аккаунт аутентификации. Локальные данные на устройстве также очищаются. Вы также можете удалить только локальные данные, не удаляя облачный аккаунт.',
+        childrenTitle: '7. Дети',
+        childrenBody: 'Zynex AI не предназначен для детей младше возраста, установленного местным законодательством для использования подобных сервисов без согласия родителей. Если вы считаете, что ребёнок предоставил личные данные ненадлежащим образом, свяжитесь с нами.',
+        changesTitle: '8. Изменения политики',
+        changesBody: 'Мы можем время от времени обновлять эту Политику конфиденциальности. Если будут внесены существенные изменения, мы обновим дату на этой странице.',
+        contactTitle: '9. Контакты',
+        contactBody: 'Если у вас есть вопросы о конфиденциальности или запросы на удаление аккаунта, свяжитесь с нами: alibaradee.mail4@gmail.com',
+        footer: 'Подготовлено для публикации Zynex AI и соответствия Google Play.'
+      },
+      id: {
+        label: 'Indonesia',
+        dir: 'ltr',
+        title: 'Kebijakan Privasi Zynex AI',
+        subtitle: 'Kebijakan ini menjelaskan data apa yang dapat diproses oleh Zynex AI, bagaimana data tersebut digunakan, dan kontrol apa yang dimiliki pengguna.',
+        notice: 'Ini adalah halaman kebijakan privasi resmi untuk aplikasi Zynex AI.',
+        updated: 'Terakhir diperbarui: 27 Maret 2026',
+        app: 'Aplikasi: Zynex AI',
+        introTitle: '1. Ringkasan',
+        introBody: 'Zynex AI adalah aplikasi asisten AI yang menyediakan chat, pesan tersimpan, catatan, alat gambar, ekspor, langganan, sinkronisasi cloud, dan login dengan Google atau mode tamu. Kami hanya mengumpulkan informasi yang diperlukan untuk menyediakan fitur tersebut dan meningkatkan keandalan layanan.',
+        collectTitle: '2. Informasi yang Kami Kumpulkan',
+        collectList: [
+          'Informasi akun seperti nama profil Google, alamat email, dan identitas akun saat Anda masuk dengan Google.',
+          'Data autentikasi anonim saat Anda menggunakan aplikasi dalam mode tamu.',
+          'Konten yang Anda buat di dalam aplikasi, seperti percakapan, pesan tersimpan, catatan, prompt, dan pengaturan.',
+          'Gambar dan file yang Anda pilih sendiri untuk konversi gambar, ekspor PDF, atau berbagi.',
+          'Informasi pembelian dan status langganan yang diproses melalui RevenueCat dan toko aplikasi.',
+          'Informasi teknis terkait iklan yang disediakan oleh Google AdMob, seperti permintaan iklan dan sinyal iklan tingkat perangkat.',
+          'Data dasar perangkat dan penggunaan aplikasi yang diperlukan untuk fungsi, keamanan, penyimpanan, dan pemecahan masalah.'
+        ],
+        useTitle: '3. Cara Kami Menggunakan Informasi',
+        useList: [
+          'Untuk menyediakan respons AI dan fitur aplikasi yang Anda minta.',
+          'Untuk menyinkronkan percakapan, pesan tersimpan, dan pengaturan antar perangkat saat Anda menggunakan akun nyata.',
+          'Untuk menyimpan preferensi seperti bahasa, tema, catatan, dan riwayat alat tertentu secara lokal di perangkat Anda.',
+          'Untuk memproses langganan, memulihkan pembelian, dan mengelola akses premium.',
+          'Untuk menampilkan iklan kepada pengguna gratis dan meningkatkan performa monetisasi.',
+          'Untuk melindungi aplikasi, mengurangi penyalahgunaan, dan menjaga stabilitas layanan.'
+        ],
+        shareTitle: '4. Layanan Pihak Ketiga dan Pembagian Data',
+        shareBody: 'Zynex AI menggunakan layanan pihak ketiga terpercaya untuk menjalankan fitur inti. Data Anda dapat diproses oleh penyedia ini hanya jika diperlukan:',
+        shareList: [
+          'Google Firebase untuk autentikasi dan database cloud.',
+          'Google Sign-In untuk login.',
+          'Google Generative AI / Gemini API untuk respons AI.',
+          'Google AdMob untuk iklan di dalam aplikasi.',
+          'RevenueCat dan toko aplikasi terkait untuk pengelolaan langganan dan pembelian.',
+          'Layanan berbagi dan ekspor saat Anda memilih untuk membagikan atau mengekspor konten.'
+        ],
+        storageTitle: '5. Penyimpanan dan Keamanan',
+        storageBody: 'Sebagian informasi disimpan secara lokal di perangkat Anda. Jika Anda masuk dengan akun nyata, percakapan, pesan tersimpan, dan pengaturan profil juga dapat disimpan di Firebase Firestore untuk sinkronisasi cloud. Kami mengambil langkah yang wajar untuk melindungi data, tetapi tidak ada sistem yang dapat menjamin keamanan mutlak.',
+        rightsTitle: '6. Hak Anda dan Penghapusan Akun',
+        rightsBody: 'Anda dapat keluar kapan saja. Anda juga dapat menghapus akun dari dalam aplikasi. Saat akun dihapus, aplikasi akan mencoba menghapus data yang tersinkron dari Firebase dan menghapus akun autentikasi. Data lokal di perangkat Anda juga akan dibersihkan. Anda juga dapat menghapus data lokal saja tanpa menghapus akun cloud.',
+        childrenTitle: '7. Anak-anak',
+        childrenBody: 'Zynex AI tidak ditujukan untuk anak-anak di bawah usia yang diizinkan oleh hukum setempat untuk menggunakan layanan seperti ini tanpa persetujuan orang tua. Jika Anda yakin seorang anak memberikan data pribadi secara tidak semestinya, hubungi kami.',
+        changesTitle: '8. Perubahan Kebijakan',
+        changesBody: 'Kami dapat memperbarui Kebijakan Privasi ini dari waktu ke waktu. Jika ada perubahan penting, kami akan memperbarui tanggal berlaku di halaman ini.',
+        contactTitle: '9. Kontak',
+        contactBody: 'Jika Anda memiliki pertanyaan privasi atau permintaan penghapusan akun, hubungi: alibaradee.mail4@gmail.com',
+        footer: 'Disiapkan untuk publikasi Zynex AI dan kepatuhan Google Play.'
+      }
+    };
+
+    const langOrder = ['ar', 'en', 'fr', 'es', 'de', 'tr', 'hi', 'zh', 'ja', 'ko', 'pt', 'ru', 'id'];
+    const langSelect = document.getElementById('langSelect');
+
+    langOrder.forEach((code) => {
+      const option = document.createElement('option');
+      option.value = code;
+      option.textContent = translations[code].label;
+      langSelect.appendChild(option);
+    });
+
+    function fillList(elementId, items) {
+      const list = document.getElementById(elementId);
+      list.innerHTML = '';
+      items.forEach((item) => {
+        const li = document.createElement('li');
+        li.textContent = item;
+        list.appendChild(li);
+      });
+    }
+
+    function render(lang) {
+      const t = translations[lang] || translations.en;
+      document.documentElement.lang = lang;
+      document.documentElement.dir = t.dir;
+      document.body.style.textAlign = t.dir === 'rtl' ? 'right' : 'left';
+
+      document.getElementById('page-title').textContent = t.title;
+      document.getElementById('page-subtitle').textContent = t.subtitle;
+      document.getElementById('language-label').textContent = t.dir === 'rtl' ? 'اللغة' : 'Language';
+      document.getElementById('notice-text').textContent = t.notice;
+      document.getElementById('meta-updated').textContent = t.updated;
+      document.getElementById('meta-app').textContent = t.app;
+      document.getElementById('intro-title').textContent = t.introTitle;
+      document.getElementById('intro-body').textContent = t.introBody;
+      document.getElementById('collect-title').textContent = t.collectTitle;
+      document.getElementById('use-title').textContent = t.useTitle;
+      document.getElementById('share-title').textContent = t.shareTitle;
+      document.getElementById('share-body').textContent = t.shareBody;
+      document.getElementById('storage-title').textContent = t.storageTitle;
+      document.getElementById('storage-body').textContent = t.storageBody;
+      document.getElementById('rights-title').textContent = t.rightsTitle;
+      document.getElementById('rights-body').textContent = t.rightsBody;
+      document.getElementById('children-title').textContent = t.childrenTitle;
+      document.getElementById('children-body').textContent = t.childrenBody;
+      document.getElementById('changes-title').textContent = t.changesTitle;
+      document.getElementById('changes-body').textContent = t.changesBody;
+      document.getElementById('contact-title').textContent = t.contactTitle;
+      document.getElementById('contact-body').innerHTML = t.contactBody.replace('alibaradee.mail4@gmail.com', '<span class="contact">alibaradee.mail4@gmail.com</span>');
+      document.getElementById('footer-text').textContent = t.footer;
+
+      fillList('collect-list', t.collectList);
+      fillList('use-list', t.useList);
+      fillList('share-list', t.shareList);
+      langSelect.value = lang;
+    }
+
+    const browserLang = (navigator.language || 'en').slice(0, 2);
+    const initialLang = langOrder.includes(browserLang) ? browserLang : 'en';
+
+    langSelect.addEventListener('change', (event) => {
+      render(event.target.value);
+    });
+
+    render(initialLang);
+  </script>
+</body>
+</html>

@@ -1,0 +1,1 @@
+# zynex-ai-privacy-policy
